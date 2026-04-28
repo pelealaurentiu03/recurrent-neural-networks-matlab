@@ -12,7 +12,7 @@ The codebase explores both standard PLRNN State-Space Models (SSM) and regulariz
 
 * /code_PLRNN_SSM - Core implementation of the standard Piecewise Linear RNN state-space models.
 * /code_PLRNNreg_BOLD_SSM - Regularized PLRNN models tailored for analyzing BOLD signal dynamics.
-* /Published_code - Finalized, clean scripts prepared for deployment and review.
+* /figures - Finalized, clean representations of what the code calculated.
 
 ## Technical Stack
 * Language: MATLAB
