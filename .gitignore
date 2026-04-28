@@ -6,6 +6,7 @@
 # MATLAB cache and auto-generated files
 *.asv
 *.xml
+*.nii
 Project/
 
 # Ignore large datasets and model weights (Uncomment if your .mat files are over 25MB)
