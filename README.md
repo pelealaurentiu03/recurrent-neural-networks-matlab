@@ -6,15 +6,13 @@ This repository contains the implementation of Piecewise Linear Recurrent Neural
 
 Recurrent Neural Networks are highly effective for modeling sequential data, but interpreting their internal dynamics can be challenging. This project utilizes the PLRNN architecture, which provides a mathematically tractable framework for dynamical systems analysis while maintaining high representational capacity. 
 
-The codebase explores both standard PLRNN State-Space Models (SSM) and regularized versions applied to specific data types, such as BOLD (Blood-Oxygen-Level-Dependent) signals.
+The codebase explores both standard PLRNN State-Space Models (SSM) and regularized versions applied to functional neuroimaging data. Specifically, the models are tailored for analyzing BOLD (Blood-Oxygen-Level-Dependent) signal dynamics, utilizing the standard **Schaefer 2018 brain parcellation atlas** to extract and process regional time-series data.
 
 ## Repository Structure
 
 * /code_PLRNN_SSM - Core implementation of the standard Piecewise Linear RNN state-space models.
 * /code_PLRNNreg_BOLD_SSM - Regularized PLRNN models tailored for analyzing BOLD signal dynamics.
 * /Published_code - Finalized, clean scripts prepared for deployment and review.
-* /data - Contains sample `.mat` datasets used for training and evaluating the models.
-* /resources - Additional documentation, biophysical constraints configurations, and project metadata.
 
 ## Technical Stack
 * Language: MATLAB
